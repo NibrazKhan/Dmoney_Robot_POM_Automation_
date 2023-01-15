@@ -1,0 +1,9 @@
+Useful Commands:
+runnning any testcase:  robot -t "TC03*" .
+Exclude TEst case with tags: robot -e <Tag> TestCase_directory
+Include Test case with tags:robot -i <Tag> TestCase_directory  OR robot --include=<Tag> TestCase_directory
+In Combination: robot -e <Tag> -i <Tag> TestCase_directory.
+If no directory: robot -i <Tag> .
+Run all the file: robot .
+Run specfic file: robot directory 
+Run all test within a folder: robot --suite <foldername>
